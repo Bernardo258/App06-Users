@@ -12,6 +12,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { UsersComponent } from './components/users/users.component';
 import { SearchComponent } from './components/search/search.component';
 import { HomeComponent } from './components/home/home.component';
+import { UsuariosComponent } from './components/usuarios/usuarios.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     UsersComponent,
     SearchComponent,
-    HomeComponent
+    HomeComponent,
+    UsuariosComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
