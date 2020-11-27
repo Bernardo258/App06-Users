@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
@@ -29,6 +29,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot(ROUTES),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

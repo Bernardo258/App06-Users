@@ -19,5 +19,12 @@ export class ServiceService {
   getId(id){
     return this.http.get(`https://reqres.in/api/users/${id}`);
   }
+  
+  deleteUser(id){
+    return this.http.delete(`https://reqres.in/api/users/${id}`);
+  }
 
+  addUser(data: any){
+    return this.http.post('https://reqres.in/api/users', data);
+  }
 }
